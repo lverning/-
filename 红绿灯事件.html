@@ -1,0 +1,38 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>红绿灯事件</title>
+    <style>
+        #nain >.show{
+            display: flex;
+            flex-direction: row;
+        }
+        #main>.show>div{
+            height: 60px;
+            width: 60px;
+            background-color: lightgray;
+            margin-left: 10px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="show">
+            <div id="red" ></div>
+            <div id="yello" ></div>
+            <div id="green" ></div>
+        </div>
+        <div class="buttons" >
+            <input type="button" id="red_button"  value="红灯" onclick="01('rde')" >
+            <input type="button" id="yello_button"  value="黄灯" onclick="02('yello')" >
+            <input type="button" id="green_button"  value="绿灯" onclick="03('green')" >
+        </div>
+    </div>
+</body>
+<style>
+    
+</style>
+</html>
